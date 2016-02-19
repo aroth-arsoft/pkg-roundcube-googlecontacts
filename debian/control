@@ -1,0 +1,17 @@
+Source: roundcube-googlecontacts
+Section: web
+Priority: extra
+Maintainer: Andreas Roth <aroth@arsoft-online.com>
+Build-Depends: debhelper (>= 9),
+               yui-compressor
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/aroth-arsoft/pkg-roundcube-googlecontacts
+Vcs-Browser: https://github.com/aroth-arsoft/pkg-roundcube-googlecontacts
+
+Package: roundcube-googlecontacts
+Architecture: all
+Depends: roundcube-core (>= 1.1.2),
+         ${misc:Depends}
+Description: google_contacts plugin for roundcube
+ google_contacts plugin for RoundCube 0.6 Syncs with google contacts 
+ in both directions.
